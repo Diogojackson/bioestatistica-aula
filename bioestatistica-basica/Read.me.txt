@@ -1,0 +1,6 @@
+Esse projeto de R é referente aos exemplos criados na disciplina de bioestatística básica.
+Calcularemos a altura, criaremos gráficos simples de histograma, boxplot e dispersão.
+Além de alguns testes de estatística descritiva.
+
+¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨
+A pasta 'raw' e seus respectivos arquivos NÃO podem ser excluídas.
