@@ -22,3 +22,8 @@ ggplot(dados, aes(x = altura, y = pe, color = sexo))+
 
 #hist ----
 hist(dados$altura)
+
+#Distribuicao normal ----
+plot(density(dados$altura))
+
+shapiro.test(dados$altura)
