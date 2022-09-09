@@ -1,9 +1,9 @@
 {
     "id": "9BB2067B",
-    "path": "~/MeusProjetosGit/bioestatistica-basica/scripts/aula_bioestatistica.R",
+    "path": "~/MeusProjetosGit/bioestatistica/bioestatistica-basica/scripts/aula_bioestatistica.R",
     "project_path": "scripts/aula_bioestatistica.R",
     "type": "r_source",
-    "hash": "4258143771",
+    "hash": "3518084875",
     "contents": "",
     "dirty": false,
     "created": 1662489340736.0,
@@ -14,14 +14,14 @@
         "source_window_id": "",
         "Source": "Source",
         "cursorPosition": "22,0",
-        "scrollLine": "4"
+        "scrollLine": "7"
     },
     "folds": "",
-    "lastKnownWriteTime": 1662522669,
+    "lastKnownWriteTime": 1662684858,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1662522669114,
+    "last_content_update": 1662684858339,
     "read_only": false,
     "read_only_alternatives": []
 }

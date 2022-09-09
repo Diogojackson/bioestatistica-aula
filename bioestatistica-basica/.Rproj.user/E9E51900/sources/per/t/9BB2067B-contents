@@ -4,18 +4,20 @@
 #packages ----
 library(dplyr)
 library(ggplot2)
+library(readxl)
 
 #import data frame ----
 dados <- read_excel("data/raw/altura_turma.xlsx")
 
 #boxplot ----
-boxplot(dados$altura~dados$sexo)
+boxplot(dados$altura~dados$sexo, xlab = "Sexo", ylab = "Altura (cm)")
 
 #scatterplot ----
-plot(dados$altura, dados$pe)
+plot(dados$altura, dados$pe, xlab = "Altura (cm)", ylab = "Tamanho do tênis")
 
 ggplot(dados, aes(x = altura, y = pe, color = sexo))+
   geom_point(size = 3)+
+  labs(x = "Altura (cm)", y = "Tamanho do tênis")+
   theme_bw(base_size = 20)
 
 #hist ----
