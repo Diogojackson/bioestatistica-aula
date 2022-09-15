@@ -35,3 +35,9 @@ ggplot(dados2, aes(x = dossel, y = temp))+
   stat_summary(fun = "mean", geom = "point", col = "brown4", size = 2.3, pch = 8)+
   labs(x = "Cobertura dossel", y = "Temperatura (°C)")+
   theme_bw(base_size = 20)
+
+ggplot(dados2, aes(x = dossel, y = temp))+
+  geom_boxplot()+
+  stat_summary(fun = "mean", geom = "point", col = "brown4", size = 2.3, pch = 8)+
+  labs(x = "Cobertura dossel", y = "Temperatura (°C)")+
+  theme_test(base_size = 20)
